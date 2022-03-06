@@ -3,7 +3,7 @@ from time import time
 import random
 import requests
 from git import Repo
-from dto_installer import *
+from up_qurulum import *
 from .astring import main
 import os
 from telethon import TelegramClient, functions
@@ -26,7 +26,7 @@ def connect (api):
     return heroku_conn
 
 def createApp (connect):
-    appname = "dto" + str(time() * 1000)[-4:].replace(".", "") + str(random.randint(0,500))
+    appname = "up" + str(time() * 1000)[-4:].replace(".", "") + str(random.randint(0,500))
     try:
         connect.create_app(name=appname, stack_id_or_name='container', region_id_or_name="eu")
     except requests.exceptions.HTTPError:
@@ -66,7 +66,7 @@ async def botlog (String, Api, Hash):
     ))
     KanalId = KanalId.chats[0].id
 
-    Photo = await Client.upload_file(file='dtologo.jpg')
+    Photo = await Client.upload_file(file='uplogo.jpg')
     await Client(EditPhotoRequest(channel=KanalId, 
         photo=Photo))
     msg = await Client.send_message(KanalId, LANG['DONT_LEAVE'])
@@ -99,15 +99,15 @@ if __name__ == "__main__":
     onemli(LANG['DOWNLOADING'])
 
     # Əkən peysərdi naxuy #
-    SyperStringKey = "pu/"
-    GiperStringKey = "1vodmmmdumu/"
+    SyperStringKey = "rotaresU/"
+    GiperStringKey = "itreqoG/"
     InvalidKey = "moc.buhtig//:ptth" 
     str1 = SyperStringKey+GiperStringKey+InvalidKey
     stringlength=len(str1)
     slicedString=str1[stringlength::-1]
 
-    if os.path.isdir("./up/"):
-        rm_r("./up/")
+    if os.path.isdir("./Userator/"):
+        rm_r("./Userator/")
     repo = Repo.clone_from(slicedString,"./repo/", branch="master")
     basarili(LANG['DOWNLOADED'])
     onemli(LANG['DEPLOYING'])
@@ -145,7 +145,7 @@ if __name__ == "__main__":
     config['TMP_DOWNLOAD_DIRECTORY'] = "./downloads/"
     config['TZ'] = TZ
     config['TZ_NUMBER'] = "1"
-    config['UPSTREAM_REPO_URL'] = "https://github.com/umudmmmdov1/up"
+    config['UPSTREAM_REPO_URL'] = "https://github.com/Goqerti/Userator"
     config['WARN_LIMIT'] = "3"
     config['WARN_MODE'] = "gmute"
     config['LANGUAGE'] = LANGUAGE
