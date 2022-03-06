@@ -3,23 +3,21 @@
   <h1>U S Σ R Δ T O R Qurulum</h1>
 </div>
 
-## HerokuAPI'si işlədilərək edilmiş Avtomatik DTÖUserBot Deploy
+## HerokuAPI'si işlədilərək edilmiş Avtomatik U S Σ R Δ T O R Deploy
 
-## [U S Σ R Δ T O R Repo](https://github.com/umudmmmdov1/DTOUserBot)
+## [U S Σ R Δ T O R Repo](https://github.com/Goqerti/Userator)
 
 ## Qurulum
 ```sh
 git clone https://github.com/umudmmmdov1/Qurulum
 cd Qurulum
 pip install -r requirements.txt
-python3 -m dto_installer
+python3 -m up_installer
 ```
 
 ## Yaradıcılar
 
 [Ümüd Məmmədov](https://t.me/umudmmmdov1)
-
-[Ghuliev](https://t.me/Ghuliev)
 
 ## Lisenziya
 Bu proyekt GPL-3.0 lisenziyası ilə qorunur.
