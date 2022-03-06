@@ -9,10 +9,10 @@
 
 ## Qurulum
 ```sh
-git clone https://github.com/umudmmmdov1/Qurulum
+git clone https://github.com/uumud/Qurulum
 cd Qurulum
 pip install -r requirements.txt
-python3 -m up_installer
+python3 -m up_qurulum
 ```
 
 ## Yaradıcılar
