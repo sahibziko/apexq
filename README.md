@@ -15,7 +15,7 @@ pip install -r requirements.txt
 python3 -m up_qurulum
 ```
 
-## Yaradıcılar
+## Qurucu
 
 [Ümüd Məmmədov](https://t.me/umudmmmdov1)
 
