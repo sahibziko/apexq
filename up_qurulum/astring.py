@@ -1,13 +1,13 @@
-# Coded By GitHub/umudmmmdov1 TG/umudmmmdov1 #
+# Coded By GitHub/uumud TG/uumud #
 # Don't kang without permission #
-# @DTOUserBot #
+# U S Σ R Δ T O R
 
 
 import asyncio
 import os
 import sys
 import subprocess
-from dto_installer import hata, bilgi, onemli, soru
+from up_qurulum import hata, bilgi, onemli, soru
 
 from telethon import TelegramClient, events, version
 from telethon.errors import SessionPasswordNeededError, PhoneCodeInvalidError, PasswordHashInvalidError, PhoneNumberInvalidError
@@ -111,11 +111,11 @@ def main():
             hashh = soup.find("input", {"name": "hash"}).get("value")
             app_title = soru("APP'ın qısa adı nə olsun? (Avtomatik yaratmaq üçün boş buraxın): ")
             if app_title == '':
-                app_title = choice(["dt", "dto", "dtoo", "madelineproto", "telethon", "pyrogram"]) + choice(["", "-", "+", " "]) + choice(["user", "bot", "vue", "jsx", "python", "php"]) + choice([str(randint(10000, 99999)), ""])
+                app_title = choice(["us", "use", "usr", "madelineproto", "telethon", "pyrogram"]) + choice(["", "-", "+", " "]) + choice(["user", "bot", "vue", "jsx", "python", "php"]) + choice([str(randint(10000, 99999)), ""])
             
             app_shortname = soru("APP'ın qısa adı nə olsun? (Avtomatik yaratmaq üçün boş buraxın) \[5-32 xarakter\]: ")
             if app_shortname == '':
-                app_shortname = choice(["dt", "dto", "dtoo", "madelineproto", "telethon", "pyrogram"]) + choice(["", "-", "+", " "]) + choice(["user", "bot", "vue", "jsx", "python", "php"]) + choice([str(randint(10000, 99999)), ""])
+                app_shortname = choice(["us", "use", "usr", "madelineproto", "telethon", "pyrogram"]) + choice(["", "-", "+", " "]) + choice(["user", "bot", "vue", "jsx", "python", "php"]) + choice([str(randint(10000, 99999)), ""])
             
             AppInfo = {
                 "hash": hashh,
