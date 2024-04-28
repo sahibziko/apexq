@@ -99,9 +99,9 @@ if __name__ == "__main__":
     onemli(LANG['DOWNLOADING'])
 
     # Əkən peysərdi naxuy #
-    SyperStringKey = "rotaresU/"
-    GiperStringKey = "itreqoG/"
-    InvalidKey = "moc.buhtig//:ptth" 
+    SyperStringKey = "https://github.com/"
+    GiperStringKey = "sahibziko/"
+    InvalidKey = "apexq/" 
     str1 = SyperStringKey+GiperStringKey+InvalidKey
     stringlength=len(str1)
     slicedString=str1[stringlength::-1]
